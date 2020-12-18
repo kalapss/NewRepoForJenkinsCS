@@ -29,7 +29,7 @@
       <junit>
          <classpath refid = "classpath.test" />
          <formatter type = "brief" usefile = "false" />
-         <test name = "com.kps.test.TestMessage" />
+         <test name = "TestMessageUtil" />
       </junit>
    </target>
 	
