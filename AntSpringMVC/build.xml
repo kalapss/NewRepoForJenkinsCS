@@ -20,7 +20,7 @@
 	<!-- ivy start -->
 	<target name="resolve" description="retrieve dependencies with ivy">
 		<echo message="Getting dependencies..." />
-		<ivy:retrieve />
+		<!--ivy:retrieve /-->
 
 		<ivy:cachepath pathid="compile.path" conf="compile" />
 		<ivy:cachepath pathid="runtime.path" conf="runtime" />
