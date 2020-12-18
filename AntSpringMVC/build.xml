@@ -36,7 +36,7 @@
 	<!-- ivy end -->
 
 	<!-- Compile Java source from ${src.dir} and output it to ${web.classes.dir} -->
-	<target name="compile" depends="init, resolve" description="compile source code">
+	<target name="compile" depends="init" description="compile source code">
 		<mkdir dir="${web.classes.dir}" />
 		<javac destdir="${web.classes.dir}" source="${jdk.version}" target="${jdk.version}" debug="true" includeantruntime="false" classpathref="compile.path">
 			<src path="${src.dir}" />
